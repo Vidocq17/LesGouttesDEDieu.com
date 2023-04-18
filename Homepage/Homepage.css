@@ -1,0 +1,931 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrapper{
+    max-width: 100%;
+  }
+  button:hover{
+    background-color: white;
+    color:#760421;
+  }
+  .sec1{
+    height:100vh;
+    background-color: #760421;
+  }
+  
+  .decouvrir {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .decouvrir_fleche {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+    margin: -30px;
+    z-index: 3;
+    border: none;
+  }
+  
+  .suscribe{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 163px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+    color: white;
+  }
+  
+  .fleche_rouge{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #760421;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add_moins{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .add_plus{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .supp{
+    width: 28px;
+    height: 28px;
+    background-color: #760421;
+    color: white;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .rond_full{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .rond_empty{
+      height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .rond_choice{
+    height: 25px;
+    width: 25px;
+    background-color: #760421;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  /* HOMEPAGE */ 
+  
+  
+  /* HEADER */ 
+  header{
+    background-color:#760421;
+  height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      color: white;
+  }
+  header .logo a{
+  text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:90px;
+  }
+  header .menu h5{
+    margin-left:15px;
+  }
+  header .icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 128px;
+  }
+  header .icones .fa-solid{
+    margin-right: 34px;
+  }
+  /* CARROUSSEL */ 
+  
+  .carroussel{
+  border: 2px black solid;
+  background-image: url(./images_homepage/bar.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  }
+
+  .carroussel .carroussel_content{
+    display: flex;
+    justify-content: space-around;
+    margin: 128px 90px;
+    width: 80%;
+    background-color: white;
+    position: relative;
+  }
+  .carroussel .carroussel_content .carroussel_img img{
+    width: 380px;
+    height: 470px;
+  }
+  .carroussel .carroussel_content .carroussel_text{
+    padding-left: 80px;
+    justify-content: center;
+  }
+  .carroussel .carroussel_content .carroussel_text h2{
+    font-family: 'Ratio Modern';
+    font-weight: 500;
+    font-size: 36px;
+  }
+  
+  .carroussel .carroussel_content .carroussel_text h3{
+    font-family: 'Ratio Modern';
+    font-weight: 400;
+    font-size: 28px;
+  }
+  
+  .carroussel .carroussel_content .carroussel_text p{
+    font-family: 'Ratio Modern';
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .carroussel .carroussel_content button{
+    margin-top: 40px;
+    margin-left: 1px;
+  }
+.carroussel .carrousel_content .fleche_rouge{
+  position: absolute;
+  top : 50%;
+  right: 2%;
+}
+
+  /* SELECTION DU MOIS */ 
+  
+  .selection_du_mois{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .selection_du_mois .selection_titre{
+    width: 30%;
+    height: 780px;
+    background-color: #760421;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+  }
+  
+  .selection_du_mois .selection_bouteilles{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 780px;
+  }
+  
+  .selection_du_mois .selection_titre h1{
+    font-family: 'Ratio Modern';
+    font-size: 44px;
+    text-align: center;
+    color: white;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge, .champagne, .blanc, .rose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 233px;
+    height: 600px;
+    margin-bottom: 0;
+    padding-top: 150px;
+  }
+  
+  .selection_du_mois .rouge img, .champagne img, .blanc img, .rose img{
+    width: 150px;
+    height: 255px;
+    left: 513px;
+    top: 1025px;
+    background-size: cover;
+  }
+  .selection_du_mois .rouge p, .champagne p, .blanc p, .rose p{
+    font-family: 'Mukta';
+  font-size: 20px;
+  text-align: center;
+  color: #760421;
+    margin-top: 10px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge h3, .champagne h3, .blanc h3, .rose h3{
+    font-family: 'Mukta';
+    font-size: 28px;
+    text-align: center;
+    color: black;
+    margin-top: 15px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge h5,  .champagne h5, .blanc h5, .rose h5{
+    font-family: 'Mukta';
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rose{
+    opacity: 30%;
+  }
+  
+  .selection_du_mois .selection_bouteilles .fleche_rouge{
+    position: absolute;
+    top : 50%;
+    right: 2%;
+  }
+  
+  /* DOMAINE DU MOIS */ 
+  
+  .domaine_du_moment{
+    margin-top: 200px;
+    display: flex;
+  }
+  .domaine_du_moment img{
+  height: 635px;
+    width: 100%;
+  }
+  .domaine_du_moment .domaine_text{
+    background-color: black;
+    color: white;
+    width: 50%;
+  height: 631px;
+  }
+  
+  .domaine_du_moment .domaine_text h1{
+    width: 300px;
+  height: 47px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+  margin: 90px 120px 0 90px;
+  }
+  
+  .domaine_du_moment .domaine_text p{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 40px 120px 0 90px;
+  }
+  
+  .domaine_du_moment .domaine_text button{
+  width: 267.11px;
+  height: 54px;
+    margin: 40px 363px 90px 90px;
+  }
+  
+  /* VIN DU MOMENT */ 
+  
+  .vin_du_moment{
+    display: flex;
+  height: 631px;
+    width: 100%;
+  }
+  .vin_du_moment img{
+  height: 631px;
+    
+  }
+  .vin_du_moment .vin_text{
+    background-color: black;
+    color: white;
+    width: 50%;
+  height: 631px;
+  }
+  
+  .vin_du_moment .vin_text h1{
+  width: 354px;
+  height: 69px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+  margin: 90px 120px 0 90px;
+  }
+  
+  .vin_du_moment .vin_text p{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 40px 120px 0 90px;
+  }
+  
+  .vin_du_moment .vin_text button{
+  width: 267.11px;
+  height: 54px;
+    margin: 40px 363px 90px 90px;
+  }
+  
+  /* CERTIFICATIONS */ 
+  
+  .certifications{
+    height: 850px;
+    background-color: #F2E4E4;  
+  }
+  
+  .certifications_title h1{
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 36px;
+    width: 850px;
+    height: 37px;
+    font-family: 'Ratio Modern';
+    padding-top: 128px;
+    padding-left: 90px;
+  }
+  .certifications .certifications_vin{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 128px;
+  }
+  .certifications .certifications_vin .terra_vitis{
+  width: 349px;
+  height: 407px;
+  }
+  .certifications .certifications_vin .biodyvin{
+  width: 302px;
+  height: 463px;
+  }
+  
+  .certifications .certifications_vin .viticulture_durable{
+    width: 302px;
+  height: 463px;
+  }
+  
+  
+  .certifcations .certifications_vin .terra_vitis{
+    margin-left: 60px;
+  }
+  
+  .certifcations .certifications_vin .viticulture_durable{
+    margin-right: 90px;
+  }
+  
+  .certifications .certifications_vin .terra_vitis img, .biodyvin img, .viticulture_durable img{
+    width: 176px;
+    height: 176px;
+  }
+  
+  .certifications .certifications_vin .terra_vitis h3, .biodyvin h3, .viticulture_durable h3{
+    font-family: 'Ratio Modern';
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin: 35px auto;
+  }
+  
+  
+  .certifications .certifications_vin .terra_vitis p, .biodyvin p, .viticulture_durable p{
+    width: 300px;
+    height: 150px;
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  
+  /* NOEL */ 
+  
+  .noel{
+  height: 1905px;
+  background: #760421;
+  }
+  
+  .noel .noel_title h1{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+    color: white;
+  }
+  
+   .noel .squares{
+     display: flex;
+     justify-content: space-around;
+    flex-wrap: wrap;
+     
+   } 
+  
+  .noel .squares .square_un, .square_deux{
+  width: 600px;
+  height: 680px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+     border-radius: 10px 10px 0px 0px;
+    
+  }
+  
+  .noel .squares .square_trois, .square_quatre{
+    width: 600px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+     border-radius: 10px 10px 0px 0px;
+    
+  }
+  
+  .noel .squares .square_deux img{
+  width: 600px;
+  height: 332px;
+  border-radius: 10px 10px 0px 0px;
+  }
+  
+  
+  .noel .squares .square_trois img, .square_quatre img{
+    width: 600px;
+  height: 391px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .noel .squares .square_un .pannel_un{
+    background-color: black;
+    width: 600px;
+  height: 332px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     border-radius: 10px 10px 0px 0px;
+    
+  }
+  .noel .squares .text_un, .text_deux{
+    background-color: white;
+    width: 600px;
+  height: 350px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .noel .squares .text_trois, .text_quatre{
+    background-color: white;
+    width: 600px;
+    height: 358px;
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  .noel .squares .square_un .pannel_un h1{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 108px;
+  }
+  
+  
+  .noel .squares .square_un .text_un h1{
+  width: 513px;
+  height: 80.33px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+    margin: 40px;
+    
+  }
+  
+  .noel .squares .square_un .text_un p{
+    width: 500px;
+    height: 89.98px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin: auto 40px;
+  }
+  
+  .noel .squares .square_deux .text_deux H1{
+  width: 341px;
+  height: 94px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+    margin: 40px;
+    
+  }
+  
+  .noel .squares .square_deux .text_deux p{
+  width: 500px;
+  height: 58px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin: auto 40px;
+    
+  }
+  
+  .noel .squares .square_trois .text_trois H1{
+  width: 336px;
+  height: 52.37px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+    margin: 40px;
+    
+  }
+  
+  .noel .squares .square_trois .text_trois p{
+  width: 520px;
+  height: 94.27px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin: auto 40px;
+    
+  }
+    
+  .noel .squares .square_quatre .text_quatre H1{
+  width: 415px;
+  height: 46.03px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 47px;
+    margin: 40px;
+    
+  }
+  
+  .noel .squares .square_quatre .text_quatre p{
+    width: 482px;
+  height: 123.43px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin: auto 40px;
+    
+  }
+  
+  .noel .squares .suscribe{
+    margin: 40px;
+  }
+  
+  
+  /* DOMAINES PARTENAIRES */ 
+  
+  
+  .domaines_partenaires{
+    margin-top: 100px;
+    background-color: #F2E4E4;
+  height: 861px;
+  position: relative;
+  }
+  
+  .domaines_partenaires .partenaires_title h1{
+    width: 622px;
+    height: 58px;
+    font-family: 'Ratio Modern';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    color: #760421;
+    padding-top: 128px;
+    padding-left: 90px;
+    padding-bottom: 70px;
+  }
+  .domaines_partenaires .domaines{
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .domaines_partenaires .domaines .dom_perignon img, .dom_pomerol img{
+    width: 560px;
+    height: 371px;
+    z-index: 1;
+  }
+  .domaines_partenaires .domaines{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .domaines_partenaires .dom_perignon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .domaines_partenaires .dom_pomerol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .domaines_partenaires .domaines .nom_de_domaine{
+    width: 480px;
+    height: 60px;
+    background-color: #760421;
+    color: white;
+    border-radius: 12px;
+    margin: -30px;
+    z-index: 2;
+    border: none;
+  }
+  
+  .domaines_partenaires .domaines .decouvrir_fleche{
+    margin: -30px;
+    z-index: 3;
+  }
+
+  .domaines_partenaires .domaines .fleche_rouge {
+    position: absolute;
+    top : 50%;
+    right: 2%;
+  }
+  
+  /* CONNEXION */ 
+  
+  .connexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+  height: 408px;
+  }
+  
+  .connexion .connectez_vous{
+  width: 220px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  }
+  
+  .connexion .pas_de_compte{
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  .connexion .connectez_vous h1, .pas_de_compte h1{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  
+  .connexion .connectez_vous h3, .pas_de_compte h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button{
+    width: 220px;
+  height: 44px;
+    background-color:#760421;
+    color: white;
+    border-radius: 50px;
+    border: #760421;
+    padding: 10px;
+  }
+
+  .connexion .connectez_vous button, .pas_de_compte button:hover{
+    color:#760421;
+    background-color: white;
+    border:black;
+  }
+
+  
+  /* CONNEXION */ 
+  
+  .connexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+  height: 408px;
+  }
+  
+  .connexion .connectez_vous{
+  width: 220px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  }
+  
+  .connexion .pas_de_compte{
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+  }
+  
+  .connexion .connectez_vous h1, .pas_de_compte h1{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  
+  .connexion .connectez_vous h3, .pas_de_compte h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button{
+    width: 220px;
+  height: 44px;
+    background-color:#760421;
+    color: white;
+    border-radius: 50px;
+  }
+
+  .connexion .connectez_vous button, .pas_de_compte button:hover{
+    width: 220px;
+  height: 44px;
+    background-color:white;
+    color:#760421;
+    border-radius: 50px;
+    border:#760421
+  }
+  
+  /* FOOTER */ 
+  
+  footer{
+    background-color:#760421;
+    color: white;
+  height: 614px;
+  }
+  
+  footer .annonces{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 128px;
+  }
+  footer .annonces a{
+    text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  
+  footer .annonces ul .titre{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+    margin-bottom:20px;
+  }
+  footer .annonces ul li{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    list-style: none;
+  }
+  
+  footer .bas_de_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 70px;
+  }
+  footer .bas_de_page .logo_RF img{
+    width: 136px;
+  height: 85px;
+  }

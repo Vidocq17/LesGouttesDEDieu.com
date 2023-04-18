@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+  <wrapper>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>page PAIEMENT</title>
+    <link href="Paiement.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    
+    <header>
+      <div class="menu">
+        <i class="fa-solid fa-bars"style="font-size: 22px;"></i>
+        <h5>Menu</h5>
+      </div>
+      <div class="logo">
+      <h3><em><a href="#" target="_blank"> Les Gouttes <br>   de Dieu</a></em></h3>
+      </div>
+      <div class="icones">
+        <i class="fa-solid fa-magnifying-glass" style="font-size: 22px;"></i>
+        <i class="fa-solid fa-user"style="font-size: 22px;"></i>
+        <i class="fa-solid fa-basket-shopping"style="font-size: 22px;"></i>
+      </div>
+    </header>
+    
+  <body>
+  
+  <section class="etapes">
+    <p><a href="http://127.0.0.1:5500/Projets%20PERSO/LGDD/Panier/Panier.html" target="_blank">Panier</a></p>
+    <p><a href="http://127.0.0.1:5501/Compte%20client/Client.html" target="_blank">Client</a></p>
+    <p><a href="http://127.0.0.1:5500/Projets%20PERSO/LGDD/Livraison/Livraison.html" target="_blank">Livraison </a></p>
+    <p><a href="http://127.0.0.1:5500/Projets%20PERSO/LGDD/Paiement/Paiement.html" target="_blank">Paiement</a></p>
+  </section>
+
+
+  <section class="paiement">
+
+
+        <div class="mode_de_paiement">
+          
+          
+          <div class="title">
+            <h1>Paiement</h1>
+          </div>
+          
+      <h2>Mode de paiement</h2>
+      
+      <div class="modes_paiement">
+
+        <div class="mode_cb">
+          <button class="rond_empty" id="btncb"> <i class="fa-solid fa-check"></i></button>
+          <p>Payer par carte bancaire <i class="fa-regular fa-credit-card"></i></p>
+        </div>
+
+        <div class="mode_paypal">
+          <button class="rond_empty" id="btnpaypal"></button>
+          <p>Payer par Paypal <i class="fa-brands fa-paypal"></i> </p>
+        </div>
+
+        <div class="mode_autre" id="btnautre">
+          <button class="rond_empty"></button>
+          <p>Autres moyens de paiement <i class="fa-solid fa-money-bill"></i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="paiement_cb" id="paiement_cb">
+
+      <h2>Numéro de carte</h2>
+      <div class="numero_cb">
+        <h3>1234 1234 1234 <i class="fa-brands fa-cc-visa"></i> <i class="fa-brands fa-cc-mastercard"></i> <i class="fa-brands fa-cc-amex"></i></h3>
+      </div>
+      <div class="info_cb">
+        <div class="date_cb">
+          <h2>Date d’expiration</h2>
+          <h3>MM/AA</h3>
+        </div>
+        <div class="crypto_cb">
+          <h2>CVC</h2>
+          <h3>CVC</h3>
+        </div>
+      </div>
+      <h2>Pays</h2>
+      <h3>France</h3>
+      <button class="decouvrir">Payer maintenant</button>
+    </div>
+
+    <div class="paiement_paypal" id="paiement_paypal">
+    <div class="title">
+      <i class="fa-brands fa-paypal"></i> <h2> Paypal</h2>
+    </div>
+      <div class="paypal_connexion">
+        <h3>Connexion à Paypal</h3>
+        </div>
+        <input type="email" placeholder="Email"> <br>
+        <input type="password"placeholder="Mot de passe">
+      <div class="paypal_bas">
+        <input type="checkbox"> <h4>Rester connecté pour des paiements plus rapides</h4> <i class="fa-solid fa-circle-info"></i>
+      </div>
+      <div class="paypal_text">
+        <p>Pour votre sécurité, nous vous demandons toujours de <br> vous connecter pour mettre à jour vos informations <br> personnelles ou financières sur PayPal.</p>
+      </div>
+      <button id="co_paypal">Connexion</button>
+      <a><h5>Vous n'arrivez pas à vous connecter ? </h5></a>
+      <button id="acc_paypal">Payer sans ouvrir de compte</button>
+    </div>
+
+  </section>
+
+
+
+
+<script src="Paiement.js"></script>
+
+
+
+
+    
+
+    
+ <footer>
+    <div class="annonces">
+        <h3><em><a href="#" target="_blank"> Les Gouttes <br>   de Dieu</a></em></h3>
+      <div class="collections_de_vin">
+        <ul>
+          <li class="titre">Les collections de vins</li>
+          <li>Rouge</li>
+          <li>Rosé</li>
+          <li>Blancs</li>
+          <li>Champagnes</li>
+        </ul>
+      </div>
+      <div class="canaux_officiels">
+        <ul>
+          <li class="titre">Canaux officiels</li>
+          <li>Contactez-nous</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+      <div class=" mentions_legales">
+        <ul>
+          <li class="titre">Mentions légales</li>
+          <li>Conditions d'utilisation</li>
+          <li>Politiques de confidentialité</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bas_de_page">
+      <div class="message_prevention">
+        <p>L’abus d’alcool est dangereux pour la santé.<br>
+ Sachez consommer avec modération.</p>
+      </div>
+      <div class="logo_RF">
+        <img src="https://www.vauxsurseine.fr/wp-content/uploads/2017/11/logo-de-la-republique-francaise.png" alt="Republique_française">
+      </div>
+      <div class="article_de_loi">
+        <p>Interdiction de vente de boissons alcooliques aux mineurs de moins de 18 ans <br>
+La preuve de majorité de l’acheteur est exigée au moment de la vente en ligne <br>
+CODE DE LA SANTE PUBLIQUE, ART. L. 3342-1 et L.3353-3.<br>
+L’abus d’alcool est dangereux pour la santé. Sachez consommez avec modération.</p>
+      </div>
+    </div>
+
+    
+  </footer>
+</body>
+
+</html>

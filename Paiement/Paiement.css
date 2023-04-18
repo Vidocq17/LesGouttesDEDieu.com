@@ -1,0 +1,497 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+    max-width: 100%;
+  }
+  button:hover{
+    background-color: white;
+    color:#760421;
+  }
+  .sec1{
+    height:100vh;
+    background-color: #760421;
+  }
+  
+  .decouvrir {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .decouvrir_fleche {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .suscribe{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 163px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+    color: white;
+  }
+  
+  .fleche_rouge{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #760421;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add_moins{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .add_plus{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .supp{
+    width: 28px;
+    height: 28px;
+    background-color: #760421;
+    color: white;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .rond_full{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .rond_empty{
+      height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .rond_choice{
+    height: 25px;
+    width: 25px;
+    background-color: #760421;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* HEADER */ 
+  header{
+    background-color:#760421;
+  height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      color: white;
+  }
+  header .logo a{
+  text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:90px;
+  }
+  header .menu h5{
+    margin-left:15px;
+  }
+  header .icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 128px;
+  }
+  header .icones .fa-solid{
+    margin-right: 34px;
+  }
+  
+  /* ETAPES */
+  
+  .etapes{
+    background: #222121;
+    display: flex;
+    align-items: center;
+    height: 128px;
+    color: white;
+    text-align: center;
+  }
+  
+  .etapes p{
+    width: 582px;
+    height: 18px;
+  }
+  
+  .etapes a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  /* PAIEMENT */ 
+  
+  .paiement{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .paiement .title h1{
+    font-family: 'Ratio Modern';
+    font-size: 44px;
+    margin-bottom: 15px;
+  }
+
+  .paiement h2{
+    font-family: 'Ratio Modern';
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+            /* MODE DE PAIEMENT */ 
+  
+  .paiement .mode_de_paiement{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 40%;
+  }
+  
+  .paiement .mode_de_paiement h2{
+    font-family: 'Mukta';
+  font-size: 28px;
+  }
+  
+  .paiement .mode_de_paiement .modes_paiement .mode_cb{
+    border: 2px solide black;
+  }
+  
+  .mode_paypal, .mode_cb, .mode_autre{
+  border: black solid 2px;
+    display: flex;
+    align-items: center;
+  height: 75px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  .paiement .mode_de_paiement button{
+    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+  ;}
+  
+  .paiement .fa-solid{
+    color: white;
+  }
+  
+            /* PAIEMENT CB */ 
+  .paiement_cb{
+    width: 40%;
+    height: 352px;
+    display: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  .paiement_cb h2{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+  }
+  
+  .paiement_cb h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  }
+  
+  .paiement .info_cb{
+    display: flex;
+    justify-content: space-between;
+  }
+  .paiement .date_cb, .crypto_cb{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .paiement .decouvrir {
+    width: 200px;
+    margin-top: 40px;
+    border:none;
+  }
+
+/* PAIEMENT PAYPAL */ 
+.paiement_paypal{
+  padding-top:150px;
+  width: 40%;
+  height: 352px;
+  padding-bottom: 228px;
+  display: none;
+}
+
+.paiement_paypal .title{
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.paiement_paypal .title .fa-brands{
+  font-size: 50px;
+  color: #760421;
+  margin-right: 1%;
+}
+.paiement_paypal .title h2{
+  font-family: 'Mukta';
+  font-size: 50px;
+  margin: 0;
+}
+
+.paiement_paypal h3{
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 30px;
+margin-bottom: 20px;
+}
+
+.paiement_paypal .paypal_connexion h3{
+  font-family: 'Mukta';
+font-size: 30px;
+}
+.paiement_paypal .paypal_connexion input{
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.paiement_paypal .paypal_bas {
+  display: flex;
+  align-items: center;
+}
+
+.paiement_paypal .paypal_bas h4{
+  margin-top:15px;
+  margin-bottom: 0px;
+}
+
+.paiement_paypal .paypal_text p{
+  display: flex;
+  margin-top: 0;
+}
+
+#co_paypal{
+  width: 50%;
+  background-color: #760421;
+  color: white;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 4%;
+}
+
+.paiement_paypal h5{
+  font-family: 'Mukta';
+font-size: 20px;
+color: #760421;
+}
+  
+#acc_paypal{
+  width: 50%;
+  background-color: #760421;
+  color: white;
+  font-size: 25px;
+  border-radius: 4%;
+}
+
+  /* CONNEXION */ 
+  
+  .connexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+  height: 408px;
+  }
+  
+  .connexion .connectez_vous{
+  width: 220px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  }
+  
+  .connexion .pas_de_compte{
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+  }
+  
+  .connexion .connectez_vous h1, .pas_de_compte h1{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  
+  .connexion .connectez_vous h3, .pas_de_compte h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button{
+    width: 220px;
+  height: 44px;
+    background-color:#760421;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  /* FOOTER */ 
+  
+  footer{
+    background-color:#760421;
+    color: white;
+  height: 614px;
+  }
+  
+  footer .annonces{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 128px;
+  }
+  footer .annonces a{
+    text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  
+  footer .annonces ul .titre{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+    margin-bottom:20px;
+  }
+  footer .annonces ul li{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    list-style: none;
+  }
+  
+  footer .bas_de_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 70px;
+  }
+  footer .bas_de_page .logo_RF img{
+    width: 136px;
+  height: 85px;
+  }

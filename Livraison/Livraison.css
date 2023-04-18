@@ -1,0 +1,578 @@
+.wrapper{
+    max-width: 100%;
+  }
+  button:hover{
+    background-color: white;
+    color:#760421;
+  }
+  .sec1{
+    height:100vh;
+    background-color: #760421;
+  }
+  
+  .decouvrir {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .decouvrir_fleche {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .suscribe{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 163px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+    color: white;
+  }
+  
+  .fleche_rouge{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #760421;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add_moins{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .add_plus{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .supp{
+    width: 28px;
+    height: 28px;
+    background-color: #760421;
+    color: white;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .rond_full{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .rond_empty{
+      height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .rond_choice{
+    height: 25px;
+    width: 25px;
+    background-color: #760421;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* HOMEPAGE */ 
+  
+  
+  /* HEADER */ 
+  header{
+    background-color:#760421;
+  height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      color: white;
+  }
+  header .logo a{
+  text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:90px;
+  }
+  header .menu h5{
+    margin-left:15px;
+  }
+  header .icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 128px;
+  }
+  header .icones .fa-solid{
+    margin-right: 34px;
+  }
+  
+  /* ETAPES */
+  
+  .etapes{
+    background: #222121;
+    display: flex;
+    align-items: center;
+    height: 128px;
+    color: white;
+    text-align: center;
+  }
+  
+  .etapes p{
+    width: 582px;
+    height: 18px;
+  }
+  
+  .etapes a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  /* LIVRAISON */ 
+  
+  .livraison {
+    display: flex;
+    padding-bottom: 128px;
+    padding-top: 128px;
+  }
+  
+            /* LEFT PANEL */
+  
+  .livraison .left_panel{
+    padding-left: 90px;
+    width: 50%;
+  }
+  
+  .livraison .left_panel .title h1{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 57px;
+  }
+                      /* MODE LIVRAISON */ 
+
+  .livraison .left_panel .modes_livraison{
+  }
+  
+  .livraison .left_panel .modes_livraison .retrait_btq_4{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 621px;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .livraison .left_panel .modes_livraison .livraison_dom{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 621px;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .livraison .left_panel .modes_livraison .retrait_btq_8{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 621px;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+  }
+  
+  .livraison .left_panel .modes_livraison .infos_btq{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .livraison .left_panel .modes_livraison h3{
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  
+  .livraison .left_panel .modes_livraison h4{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  
+  .livraison .left_panel .modes_livraison h5{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+    color: #760421;
+  }
+  
+                      /* ADRESSE */ 
+  
+.livraison h4{
+  margin-bottom: 0px;
+}
+
+  .livraison .left_panel .adresse{
+    padding-top: 32px;
+    width: 630px;
+  }
+  
+  .livraison .nom_prenom{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+  }
+  
+  .livraison .nom_prenom #prenom, #nom{
+    width: 40%;
+    padding:0px;
+  }
+  
+  .livraison .adr{
+    padding-bottom: 40px;
+    width: 100px;
+    padding: 0px;
+ 
+  }
+  
+  .livraison .habitation{
+      display: flex;
+    justify-content: space-between;
+  }
+  
+  .livraison #residence {
+    width: 100%;
+  }
+  
+  .livraison #cp, #ville{
+    width: 40%;
+  }
+  
+  .livraison #pays{
+  border: none;
+  }
+  
+  .livraison #choice_pays, #tel{
+    width: 370px;
+  }
+  
+  .livraison .left_panel .adresse h2{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  .livraison .left_panel .adresse .adresse_comp{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .livraison .left_panel .adresse h4{
+    font-family: 'Ratio Modern';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+  }
+  
+  .livraison .left_panel .adresse .adresse_comp h3 span{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  
+  .livraison .left_panel .adresse .adresse_comp h3 span{
+    font-family: 'Ratio Modern';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #760421
+  }
+  
+  .livraison .left_panel .bas_de_page h5{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+
+  .livraison button{
+    margin-top: 60px;
+  }
+  
+  
+            /* RIGHT PANEL */ 
+  .livraison .right_panel{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 80px;
+  }
+  
+  
+                      /* VOTRE PANIER */ 
+  
+  .livraison .right_panel .votre_panier{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 90px;
+    width: 475px;
+    padding-bottom: 80px;
+  }
+  
+  .livraison .right_panel .votre_panier h1{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .livraison .right_panel .votre_panier h1 span{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+    text-decoration: underline;
+  }
+  
+  .livraison .right_panel .votre_panier p{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .livraison .right_panel .votre_panier p span{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  }
+  
+  .livraison .right_panel #total{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+                      /* ACHATS */ 
+  
+            
+  .lafite, .ladygaga{
+    display: flex;
+    padding-top: 80px;
+    width: 475px;
+    padding: 20px;
+  }
+  
+  .lafite img, .ladygaga img{
+    padding-right: 30px;
+    height: 100%;
+    width: 80px;;
+  }
+
+  .lafite .info_achats h1, .ladygaga .info_achats h1{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  .lafite .info_achats p, .ladygaga .info_achats p{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .lafite .info_achats p span, .ladygaga .info_achats p span{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  }
+  
+  /* CONNEXION */ 
+  
+  .connexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+  height: 408px;
+  }
+  
+  .connexion .connectez_vous{
+  width: 220px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  }
+  
+  .connexion .pas_de_compte{
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+  }
+  
+  .connexion .connectez_vous h1, .pas_de_compte h1{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  
+  .connexion .connectez_vous h3, .pas_de_compte h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button{
+    width: 220px;
+  height: 44px;
+    background-color:#760421;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  /* FOOTER */ 
+  
+  footer{
+    background-color:#760421;
+    color: white;
+  height: 614px;
+  }
+  
+  footer .annonces{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 128px;
+  }
+  footer .annonces a{
+    text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  
+  footer .annonces ul .titre{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+    margin-bottom:20px;
+  }
+  footer .annonces ul li{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    list-style: none;
+  }
+  
+  footer .bas_de_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 70px;
+  }
+  footer .bas_de_page .logo_RF img{
+    width: 136px;
+  height: 85px;
+  }

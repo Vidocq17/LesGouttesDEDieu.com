@@ -1,0 +1,810 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+    max-width: 100%;
+  }
+  
+  button:hover{
+    background-color: white;
+    color:#760421;
+  }
+  .sec1{
+    height:100vh;
+    background-color: #760421;
+  }
+  
+  .decouvrir {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .decouvrir_fleche {
+    color: white;
+  padding: 12px 20px;
+  gap: 16px;
+  width: 168px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+  }
+  
+  .suscribe{
+  align-items: center;
+  padding: 12px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 163px;
+  height: 54px;
+  background: #760421;
+  border-radius: 6px;
+    color: white;
+  }
+  
+  .fleche_rouge{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: #760421;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add_moins{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .add_plus{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    color: #760421;
+    border: #760421;
+  }
+  
+  .supp{
+    width: 28px;
+    height: 28px;
+    background-color: #760421;
+    color: white;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .rond_full{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .rond_empty{
+      height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .rond_choice{
+    height: 25px;
+    width: 25px;
+    background-color: #760421;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* HOMEPAGE */ 
+  
+  
+  /* HEADER */ 
+  header{
+    background-color:#760421;
+  height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      color: white;
+  }
+  header .logo a{
+  text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:90px;
+  }
+  header .menu h5{
+    margin-left:15px;
+  }
+  header .icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 128px;
+  }
+  header .icones .fa-solid{
+    margin-right: 34px;
+  }
+  
+  /* FICHE PRODUIT */ 
+  
+  .fiche_produit_lafite_rotschild{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 128px;
+  }
+              /* LEFT PANEL */ 
+  .fiche_produit_lafite_rotschild .left_panel{
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fiche_produit_lafite_rotschild .left_panel button{
+    width: 290px;
+    height: 54px;
+    background-color: black;
+  }
+                                /* TITLE */
+  .fiche_produit_lafite_rotschild .left_panel .title h1{
+  width: 602px;
+  font-family: 'Ratio Modern';
+  font-size: 44px;
+  padding-top: 128px;
+  }
+                                /* IDENTITE */ 
+  .fiche_produit_lafite_rotschild .left_panel .identite h2{
+    width: 117.17px;
+  height: 37px;
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  .fiche_produit_lafite_rotschild .left_panel .identite h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-decoration: underline;
+  }
+  
+                                /* INFO MILLESIME */ 
+  .fiche_produit_lafite_rotschild .left_panel .infos_millesime{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fiche_produit_lafite_rotschild .left_panel .infos_millesime h2{
+    font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  }
+    
+  .fiche_produit_lafite_rotschild .left_panel .infos_millesime h3{
+  width: 301px;
+  height: 30px;
+  left: 89px;
+  top: 696px;
+  text-decoration: underline;
+  }
+
+  .fiche_produit .infos_millesime .classes .fa-solid{
+    color:#760421
+  }
+                                /* NOTES */ 
+  
+  
+            /* IMAGE */ 
+  
+  .fiche_produit_lafite_rotschild .img_bouteille{
+    border: 2px black solid;
+    padding-top: 115px;
+  }
+  .fiche_produit_lafite_rotschild .img_bouteille img{
+    width: 180px;
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    width: 75%;
+  }
+  
+            /* RIGHT PANEL */
+  
+                                /* INFO */
+  .fiche_produit_lafite_rotschild .right_panel .info {
+    margin-top: 120px;
+    border: 2px solid black;
+  }
+  
+  .fiche_produit_lafite_rotschild .right_panel .info h2{
+    font-family: 'Mukta';
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+ }
+  
+  .fiche_produit_lafite_rotschild .right_panel .info p{
+    font-family: 'Mukta';
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  }
+  .fiche_produit_lafite_rotschild .right_panel .info h1{
+    font-size: 46px;
+    padding: 0;
+    margin: 0;
+  }
+
+
+                                /* FORMAT MILLESIME BOUTEILLE */ 
+    
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille{
+    border: 2px solid red;
+  }
+  
+  
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille .format_bouteille h2{
+    font-family: 'Ratio Modern';
+  font-size: 20px;
+  text-decoration: underline; 
+  padding: 0;
+  margin: 0;
+  }
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille .millesime p{
+    font-family: 'Ratio Modern';
+  font-size: 20px;
+  text-decoration: underline; 
+  padding: 0;
+  margin: 0;
+  }
+  
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille  .millesime h3{
+    font-family: 'Mukta';
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+  }
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille .millesime button{
+    background-color: white;
+    padding: 7px;
+    width: 72px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  }
+
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille .millesime button:hover{
+    background-color: #760421;
+    color: white;
+  }
+
+  
+  .fiche_produit_lafite_rotschild .right_panel .format_millesime_bouteille .millesime .annees {
+  width: 236.55px;
+  height: 215px;
+  }
+  
+  .fiche_produit_lafite_rotschild .right_panel .fa-solid{
+    color:#760421;
+    background-color: white;;
+  }
+
+  .fiche_produit_lafite_rotschild .right_panel .fa-solid:hover{
+    color:black;
+  }
+  
+  /* LE SAVIEZ VOUS */ 
+  
+  .le_saviez_vous{
+    background: #F2E4E4;
+    border: 2px black solid;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+  }
+
+  .le_saviez_vous .text{
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+ 
+  .le_saviez_vous .text h1{
+  font-family: 'Ratio Modern';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 57px;
+    color: #760421;
+  }
+
+  .le_saviez_vous .text p{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+    color: #760421;
+  }
+  
+  /* AVIS OENOLOGUES */ 
+  
+  .avis_oenologue{
+    border: 2px solid black;
+    padding-top: 128px;
+  }
+  
+            /* TITLE */
+ /*.avis_oenologue .text{
+  } */ 
+  
+  .avis_oenologue .title h1{
+    margin-left: 90px;
+    font-family: 'Ratio Modern';
+  font-size: 44px;
+    color: #760421;
+    padding-bottom: 70px;
+  }
+            /* AVIS */ 
+  
+  .avis_oenologue .avis{
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 128px;
+  }
+                                
+                                /* DESCRIPTIF */ 
+  
+  .avis_oenologue .avis .descriptif{
+    width: 30%;
+    height: 100%;
+    background: #760421;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  
+  .avis_oenologue .avis .descriptif h1{
+  width: 250px;
+  font-family: 'Ratio Modern';
+  font-size: 36px;
+  color: #FFFFFF;
+    margin-left: 60px;
+  }
+  
+  .avis_oenologue .avis .descriptif p{
+    width: 80%;
+  height: 351px;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+    margin-left: 60px;
+  }
+                                /* INFORMATIONS */
+  
+  .avis_oenologue .avis .informations{
+  width: 30%;
+  height: 610px;
+    border: 3px solid #760421;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+  }
+  
+  .avis_oenologue .avis .informations h1{
+  font-family: 'Ratio Modern';
+  font-size: 40px;
+  }
+  
+  .avis_oenologue .avis .informations p{
+    font-family: 'Ratio Modern';
+  font-size: 30px;
+  }
+  
+                                /* CARACTERISTIQUES */
+  
+  .avis_oenologue .avis .caracteristiques{
+    border: 2px black solid;
+    width: 30%;
+  height: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* DOMAINE APPELLATION */ 
+  
+  .domaine_appellation{
+    border: 2px solid black;
+    background-color: #F2E4E4;
+    width: 100%;
+  }
+            /* TITLE */ 
+   .domaine_appellation .title h1{
+width: 660px;
+height: 58px;
+font-family: 'Ratio Modern';
+font-size: 44px;
+color: #760421;
+margin-left: 90px;
+  }  
+  
+            /* FIRST */ 
+  
+  .domaine_appellation .first{
+    display: flex;
+  }
+                                /* S1*/ 
+  .domaine_appellation .first .square_un_first{
+    width: 100%;
+    background: white;
+  }
+  .domaine_appellation .first .square_un_first h1{
+  font-family: 'Ratio Modern';
+  font-size: 28px;
+  margin-left: 90px;
+  }
+
+  .domaine_appellation .first .square_un_first p{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 90px;
+  }
+                                /* S2 */ 
+  .domaine_appellation .first img{
+    width: 100%;
+    height: 100%;
+  }
+                                /* S3 */ 
+  .domaine_appellation .first .square_deux_first, .square_trois_first{
+    height: 525px;
+    width: 100%;
+  }
+  
+            /* SECOND */ 
+  
+  .domaine_appellation .second{
+      display: flex;
+      width: 100%;
+  }
+  
+  .domaine_appellation .second .square_un_second{
+    color: black;
+  }
+  
+  .domaine_appellation .second .square_deux_second{
+    color: black;
+    
+  }
+  .domaine_appellation .second .square_deux_second h1{
+  font-family: 'Ratio Modern';
+  font-size: 36px;
+}
+  .domaine_appellation .second .square_deux_second p{
+    font-family: 'Mukta';
+  font-size: 20px;
+  }
+  
+  .domaine_appellation .second .square_trois_second{
+    width: 480px;
+
+  }
+  
+  /* DECOUVREZ AUSSI  */ 
+  
+  .selection_du_mois{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    width: 100%;
+    position: relative;
+  }
+  
+  .selection_du_mois .selection_titre{
+    width: 30%;
+    height: 780px;
+    background-color: #760421;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .selection_du_mois .selection_bouteilles{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    height: 780px;
+    
+  }
+  
+  .selection_du_mois .selection_titre h1{
+    font-family: 'Ratio Modern';
+    font-size: 44px;
+    text-align: center;
+    color: white;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge, .champagne, .blanc, .rose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+  height: 900px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge  img, .champagne  img, .blanc  img, .rose  img{
+    height: 300px;
+    background-size: cover;
+  }
+  .selection_du_mois .selection_bouteilles .rouge p, .champagne p, .blanc p, .rose p{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #760421;
+    margin-top: 10px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge h3, .champagne h3, .blanc h3, .rose h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: black;
+    margin-top: 15px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rouge h5,  .champagne h5, .blanc h5, .rose h5{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+    margin-top: 10px;
+  }
+  
+  .selection_du_mois .selection_bouteilles .rose{
+    opacity: 30%;
+  }
+  
+  .selection_du_mois .selection_bouteilles .fleche_rouge{
+    position: absolute;
+    top : 50%;
+    right: 2%;
+  }
+
+  /* NOS AUTRES COLLECTIONS */ 
+  
+
+  .nos_autres_collections{
+    width: 100%;
+  height: 920px;
+  background: #F2E4E4;
+  }
+  
+  .nos_autres_collections .title h1{
+    font-family: 'Ratio Modern';
+    font-size: 44px;
+    line-height: 57px;
+    color: #760421;
+    margin-left: 90px;
+    padding-top: 128px;
+    padding-bottom: 80px;
+  }
+  
+  .nos_autres_collections .autres_contenus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .nos_autres_collections .autres_contenus img{
+    width: 80%;
+    height: 465px;
+    z-index: 2;
+  }
+  
+  .nos_autres_collections .autres_contenus .vins_petillants button, .vins_roses button, .vins_blancs button{
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-left: 50px; 
+    z-index:1;
+    border: none;
+  }
+  
+  
+  /* CONNEXION */ 
+  
+  .connexion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 128px;
+  height: 408px;
+  }
+  
+  .connexion .connectez_vous{
+  width: 220px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-direction: column;
+  }
+  
+  .connexion .pas_de_compte{
+  width: 368px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    
+  }
+  
+  .connexion .connectez_vous h1, .pas_de_compte h1{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+  }
+  
+  .connexion .connectez_vous h3, .pas_de_compte h3{
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button{
+    width: 220px;
+    height: 44px;
+    background-color:#760421;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .connexion .connectez_vous button, .pas_de_compte button:hover{
+    background-color: white;
+    color:#760421;
+  }
+  /* FOOTER */ 
+  
+  footer{
+    background-color:#760421;
+    color: white;
+  height: 614px;
+  }
+  
+  footer .annonces{  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 128px;
+  }
+  footer .annonces a{
+    text-decoration: none;
+  font-family: 'Aviano Royale';
+  font-style: normal;  
+  font-size: 36px;
+  line-height: 36px;
+    color:white;
+  }
+  
+  footer .annonces ul .titre{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+    margin-bottom:20px;
+  }
+  footer .annonces ul li{
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+    list-style: none;
+  }
+  
+  footer .bas_de_page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 70px;
+  }
+  footer .bas_de_page .logo_RF img{
+    width: 136px;
+  height: 85px;
+  }
